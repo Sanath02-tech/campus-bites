@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+/* Design tokens — see DESIGN-SYSTEM.md */
+@theme inline {
+  --color-primary: #ea580c;
+  --color-primary-dark: #c2410c;
+  --color-background: #ffffff;
+  --color-text: #111827;
+  --color-muted: #6b7280;
+  --color-border: #d1d5db;
+  --color-success: #16a34a;
+  --color-error: #dc2626;
+
+  --font-sans: var(--font-inter);
+}
+
+body {
+  background: var(--color-background);
+  color: var(--color-text);
+}
